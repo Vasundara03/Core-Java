@@ -1,6 +1,6 @@
 public class Product {
 
-    double price = 0;
+    double price = 10;
 
     public double getPrice(){
         return price;
