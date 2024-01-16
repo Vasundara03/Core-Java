@@ -23,9 +23,3 @@ public class Product {
         int quantity = 5;
         double totalPrice = laptop.getPrice(quantity);
         System.out.println("Total price for " + quantity + " quantities: " + totalPrice);
-
-
-    }
-
-}
-
