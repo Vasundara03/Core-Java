@@ -2,16 +2,18 @@ public class Product {
 
     double price = 10;
 
-    public double getPrice(){
+    public double getPrice() {
         return price;
     }
 
     public void setPrice(double price) {
         this.price = price;
     }
+
     public double getPrice(int quantity) {
         return price * quantity;
     }
+
     public static void main(String[] args) {
         Product laptop = new Product();
 
@@ -23,3 +25,5 @@ public class Product {
         int quantity = 5;
         double totalPrice = laptop.getPrice(quantity);
         System.out.println("Total price for " + quantity + " quantities: " + totalPrice);
+    }
+}

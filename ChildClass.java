@@ -17,5 +17,5 @@ public class ChildClass extends ParentClass {
         return ChildClass;
     }
 
-  
+
 }
